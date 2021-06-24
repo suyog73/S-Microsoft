@@ -1,0 +1,205 @@
+body {
+  margin: 0 50px;
+}
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 2.3rem;
+  color: #11999E;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+}
+
+/*---------------------------Navbar------------------------------ */
+.cart {
+  width: 25px;
+  /* margin: 0 10px; */
+}
+
+.search {
+  width: 25px;
+  /* margin: 0 10px; */
+}
+
+.M-logo {
+  padding-bottom: 10px;
+}
+
+/*--------------------------- Title------------------------------ */
+#title {
+  background-color: #E8F0F2;
+}
+
+.top {
+  padding: 10% 15%;
+}
+
+.carousel-color {
+  background-color: #39A2DB;
+}
+
+.laptop {
+  width: 100%;
+}
+
+/*--------------------------- Title------------------------------*/
+/*---------------------------features----------------------------*/
+#features {
+  padding: 10% 20%;
+  text-align: center;
+}
+
+.f-text {
+  padding-top: 10px;
+}
+
+/*---------------------------features----------------------------*/
+/*---------------------------component----------------------------*/
+#component {
+  text-align: center;
+  padding: 3% 0%;
+}
+
+.component-h3 {
+  color: #11999E;
+  padding: 10px 0;
+}
+
+/*---------------------------component----------------------------*/
+/*---------------------------Edge----------------------------*/
+#edge {
+  background-color: #E8F0F2;
+  padding-bottom: 140px;
+  padding-top: 60px;
+}
+
+.edge-p {
+  padding-left: 350px;
+  width: 80%;
+}
+
+.edge-img {
+  width: 35%;
+  float: left;
+  padding-right: 50px;
+}
+
+/*---------------------------Edge----------------------------*/
+/*---------------------------Business----------------------------*/
+#business {
+  text-align: center;
+  padding: 10% 0 4%;
+}
+
+.business-h3 {
+  padding-top: 2%;
+  color: #11999E;
+}
+
+/*---------------------------Business----------------------------*/
+.hover:hover {
+  background-color: gold;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 20px;
+  padding: 3.5%;
+}
+
+.cont {
+  margin: auto;
+  width: 40%;
+  padding-bottom: 100px;
+}
+
+.copy {
+  margin-bottom: 0;
+}
+
+/*--------------------------Covid-------------------------*/
+#covid {
+  text-align: center;
+  background-color: #E8F0F2;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.covid-h2{
+  font-weight: bold;
+}
+
+/*--------------------------Covid-------------------------*/
+/*---------------------------Contact-------------------------*/
+#contact {
+  background-color: #F6C6EA;
+  text-align: center;
+  padding: 40px 0 40px;
+}
+
+.twitter-img {
+  width: 25px;
+}
+
+.Instagram-img {
+  width: 25px;
+}
+
+.linkedin-img {
+  width: 25px;
+}
+
+/* ---------------------------Mobile------------------------- */
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .top-text {
+    padding-bottom: 50px;
+  }
+
+  .f-text {
+    padding-bottom: 50px;
+  }
+
+  #navbar-top {
+    text-align: right;
+
+  }
+
+  #component {
+    text-align: center;
+  }
+
+  .tog {
+    text-align: left;
+  }
+
+  .logo-text {
+    text-align: center;
+  }
+
+  .component-p {
+    margin: 0 200px;
+    padding-bottom: 8%;
+  }
+
+  #edge {
+    background-color: #E8F0F2;
+    padding-bottom: 85px;
+    padding-top: 60px;
+  }
+
+  #business {
+    text-align: center;
+  }
+
+  .business-p {
+    margin: 0 200px;
+    padding-bottom: 8%;
+  }
+}
